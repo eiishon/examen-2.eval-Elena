@@ -90,8 +90,8 @@ section.testcolours{
 table.tc{
     text-align: center;
     background-color: chocolate;
-    margin: 15px;
-    padding: 15px;
+    padding: 1px;
+    border: black 1px solid;
 }
 
 hr.a{
@@ -102,7 +102,13 @@ hr.a{
     margin-right: 25%;
 }
 
-tr {
+td {
     margin: 15px;
     padding: 15px;
+    border: black 1px solid;
+  }
+
+  input{
+      background-color: yellow;
+      border-color: blue;
   }
