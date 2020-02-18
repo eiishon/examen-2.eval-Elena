@@ -33,7 +33,16 @@ header{
 
 
     
-/*** CSS DE WE ARE COLOURS ***/    
+/*** CSS DE WE KNOW COLOURS ***/  
+
+tr.wkc{
+    border: red;
+    background-color: lightblue;
+  
+}
+table {
+    empty-cells: hide;
+  }
     section.wkc{
         background-color: lightyellow;
     }
@@ -47,22 +56,17 @@ header{
 
 footer{
     background-color: lightslategrey;
-}
-
-span.izda{
-    text-align: left;
-    margin-left: 10%;
-}
-
-span.centro{
-    text-transform: uppercase;
     text-align: center;
 }
 
-span.dcha{
-    text-align: right;
-    margin-right: 10%;
+
+span.centro{
+    text-transform: uppercase;
+    margin-right: 20%;
+    margin-left: 20%;
 }
+
+
 
 /*** CSS DE LOS COLORES SON BONITOS ***/
 
@@ -70,7 +74,31 @@ section.lcsb{
     background-color: chocolate;
     color: yellow;
     text-align: center;
-    border-top: orange 10px dotted;
-    border-bottom: yellow 10px dashed;
-    border-color: ;
+    border-color: orange red yellow red;
+    border-width: 10px 20px;
+    border-style: dotted solid dashed;
 }
+
+
+/*** CSS DE TEST COLOURS ***/
+
+section.testcolours{
+    background-color: lightsteelblue;
+}
+
+table.tc{
+    background-color: chocolate;
+}
+
+hr.a{
+    
+    color: blue;
+    border: red 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+tr {
+    margin: 15px;
+    padding: 15px;
+  }
