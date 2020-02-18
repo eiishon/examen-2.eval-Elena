@@ -83,11 +83,15 @@ section.lcsb{
 /*** CSS DE TEST COLOURS ***/
 
 section.testcolours{
+
     background-color: lightsteelblue;
 }
 
 table.tc{
+    text-align: center;
     background-color: chocolate;
+    margin: 15px;
+    padding: 15px;
 }
 
 hr.a{
