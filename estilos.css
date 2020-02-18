@@ -1,0 +1,76 @@
+
+/*** CSS DE WE ARE COLOURS ***/
+
+header{
+    background-color: lightblue;
+    @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+    font-family: 'Zhi Mang Xing', cursive;
+    color: red;
+    text-shadow: gray 5px 0 0;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+/*** CSS DE LOS FONDOS ***/
+
+    @media screen {
+        html{
+            background-color: lightcoral;
+        }
+    }
+
+    @media (orientation: portrait){
+        html{
+            background-color: limegreen;
+        }
+    }
+
+    @media (orientation: landscape){
+        html{
+            background-color: yellow;
+        }
+    }
+
+
+    
+/*** CSS DE WE ARE COLOURS ***/    
+    section.wkc{
+        background-color: lightyellow;
+    }
+
+    ul {
+        list-style-type: decimal;
+      }
+
+
+/*** CSS DEL FOOTER ***/
+
+footer{
+    background-color: lightslategrey;
+}
+
+span.izda{
+    text-align: left;
+    margin-left: 10%;
+}
+
+span.centro{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span.dcha{
+    text-align: right;
+    margin-right: 10%;
+}
+
+/*** CSS DE LOS COLORES SON BONITOS ***/
+
+section.lcsb{
+    background-color: chocolate;
+    color: yellow;
+    text-align: center;
+    border-top: orange 10px dotted;
+    border-bottom: yellow 10px dashed;
+    border-color: ;
+}
